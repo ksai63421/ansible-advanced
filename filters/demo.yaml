@@ -3,7 +3,7 @@
   vars:
    NAME: sai krishna
    website: https://www.joindevops.com/batch-74s
-   praposing: I love you all
+   praposing: I love you all, guys
   tasks:
   - name: convert into upper case
     debug:
