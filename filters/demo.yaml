@@ -5,4 +5,4 @@
   tasks:
   - name: convert into upper case
     debug:
-     msg: "Hello {{ NAME | uppser}}"
+     msg: "Hello {{ NAME | upper}}"
