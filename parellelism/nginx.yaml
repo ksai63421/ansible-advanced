@@ -1,0 +1,13 @@
+- name: demo on parellelism
+  hosts: nginx
+  become: yes
+  tasks:
+  - name: install nginx
+    ansible.builtin.yum:
+      name: nginx
+      state: installed
+
+  - name: Rum Nginx
+    ansible.builtin.service:
+     name: nginx
+     state: started
