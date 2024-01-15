@@ -3,6 +3,7 @@
   vars:
    NAME: sai krishna
    website: https://www.joindevops.com/batch-74s
+   praposing: I love you all
   tasks:
   - name: convert into upper case
     debug:
@@ -19,3 +20,7 @@
   - name: extarct hostname
     debug:
      msg: "{{ website | urlsplit('hostname') }}"
+
+  - name: split
+    debug:
+     msg: "{{ praposing | split(",") }}"
