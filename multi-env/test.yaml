@@ -3,5 +3,5 @@
   become: yes
   tasks:
   - name: print the variables according to the environment
-    ansible.buitlin.debug:
+    ansible.builtin.debug:
       msg: "Hello {{NAME}}"
